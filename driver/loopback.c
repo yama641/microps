@@ -39,6 +39,6 @@ loopback_init(void)
         errorf("net_device_register() failure");
         return NULL;
     }
-    infof("success, dev=%s, dev->name");
+    infof("success, dev=%s", dev->name);
     return dev;
 }
